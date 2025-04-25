@@ -1,0 +1,46 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.card {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex ;
+    justify-content: space-between;
+}
+.card img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+}
+.card .left {
+    width: 25%;
+}
+.card .right {
+    width: 75%;
+}
+.card .right .category {
+    font-size: 0.9em;
+    color: #666;
+    background-color: aliceblue;
+}
+.card .right .price {
+    font-size: 1.2em;
+    color: #333;
+}
+.card a {
+    text-decoration: none;
+    color: lightblue;
+    background-color: #666;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.card a:hover {
+    text-decoration: none;
+    color: lightblue;
+    background-color: #aaa;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
